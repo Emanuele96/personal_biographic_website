@@ -11,12 +11,13 @@ function App() {
     <div>
       <AppBar position="static">
         <Toolbar>
-          <Title destination={"hello"} name={"Loren"}></Title>
+          <Title destination={"aboutme"} name={"About Me"}></Title>
+          <Title destination={"hello"} name={"Projects"}></Title>
+          <Title destination={"hello"} name={"CV"}></Title>
+          <Title destination={"hello"} name={"Contacs"}></Title>
         </Toolbar>
       </AppBar>
-      <Section id={"llo"}></Section>
-      <Section id={"llo"}></Section>
-      <Section id={"hello"}></Section>
+      <Section id={"aboutme"}></Section>
     </div>
   );
 }
